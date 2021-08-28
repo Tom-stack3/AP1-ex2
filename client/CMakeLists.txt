@@ -1,3 +1,3 @@
 cmake_minimum_required(VERSION 3.0.0)
-
+add_compile_options(-std=c++11)
 add_executable(Client Client.cpp ../protocol/Udp.cpp ../protocol/Tcp.cpp ../protocol/Socket.cpp ../Flower.cpp ../Classified.cpp ../utils/Reader.cpp ../utils/Writer.cpp)
